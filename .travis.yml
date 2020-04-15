@@ -1,0 +1,5 @@
+compiler: gcc
+language: cpp
+script: 
+  -g++ ProblemaCambio.cpp -o cambio -std=c++17
+  -./cambio
