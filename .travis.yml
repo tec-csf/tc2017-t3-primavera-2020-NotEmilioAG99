@@ -3,3 +3,5 @@ language: cpp
 script: 
   - g++ ProblemaCambio.cpp -std=c++17 -o cambio
   - ./cambio
+  -g++ Problema7.cpp -std=c++17 -o p7
+  -./p7
