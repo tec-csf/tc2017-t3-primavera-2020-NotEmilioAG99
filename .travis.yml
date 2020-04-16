@@ -1,6 +1,7 @@
 compiler: gcc
 language: cpp
 script: 
+  - cd Sources
   - g++ ProblemaCambio.cpp -std=c++17 -o cambio
   - ./cambio
   - g++ Problema7.cpp -std=c++17 -o p7
